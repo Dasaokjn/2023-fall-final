@@ -1,75 +1,11 @@
-
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background: #f8f8f8;
-}
-
-header, footer {
-    background: #333;
-    color: white;
+table{
+    border-collapse: collapse;
+     border: solid 1px #888;
     text-align: center;
-    padding: 1em 0;
-}
+     }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-    text-align: center; /* 中央揃え */
-}
-
-.responsive-image {
-    max-width: 40vw; /* 画像の最大幅をビューポート幅の40%にする */
-    height: auto; /* 高さを自動調整してアスペクト比を維持 */
-    display: block; /* 画像をブロック要素として扱う */
-    margin: 10px auto; /* 上下10pxのマージンを設定し、左右のマージンは自動で中央揃え */
-}
-
-/* セクションごとのスタイリング */
-.kyoto-section, .daigoji-section {
-    margin-bottom: 2em;
-    text-align: center; /* セクション全体を中央揃えに */
-}
-
-/* ボタンのスタイリング */
-.details-btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block; /* インラインブロック要素として扱う */
-    width: auto; /* 幅を内容に合わせる */
-    margin-top: 10px; /* 上のマージンを設定 */
-}
-
-/* 詳細情報が表示されたときのスタイリング */
-.show {
-    display: block; /* 詳細情報をブロック要素として表示 */
-}
-
-/* ナビゲーションボタンのスタイリング */
-.nav-btn {
-    padding: 10px 15px;
-    background-color: #4CAF50; /* 緑色の背景 */
-    color: white; /* 文字色を白に */
-    text-decoration: none; /* 下線を消す */
-    border-radius: 5px; /* 角を丸く */
-    transition: background-color 0.3s; /* 色の変化にアニメーションをつける */
+th,td{
+    padding: 5px 15px;
+    border: dashed 1px #a8d4f3;
 }
 
