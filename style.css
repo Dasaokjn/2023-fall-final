@@ -1,8 +1,26 @@
-table{
-    border-collapse: collapse;
-     border: solid 1px #888;
+/* テーブルを中央に表示させるための親要素のスタイル */
+.table-container {
     text-align: center;
-     }
+}
+
+/* テーブルの基本スタイル */
+.table {
+    border-collapse: collapse;
+    border: 1px solid #888;
+    text-align: center;
+}
+
+/* テーブル内のヘッダー行スタイル */
+.table-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+/* テーブルセルの基本スタイル */
+.table-cell {
+    padding: 8px;
+    border: 1px solid #888;
+}
 
 th,td{
     padding: 5px 15px;
