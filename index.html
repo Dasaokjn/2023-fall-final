@@ -2,10 +2,9 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>将棋を知ろう</title>
-    <script src="myjs.js"></script>
-      <script src="ex1.js"></script>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>日本古来のボードゲーム”将棋”</h1>
@@ -18,31 +17,34 @@
     <p>以下の名前は、将棋で使う“型＝戦法”です。ボタンをクリックすると、それぞれの型へジャンプします。</p>
 
     <div class="table-container">
-    <table>
-        <tr>
-            <th>攻めの型</th>
-            <th>守りの型</th>
-        </tr>
-        <tr>
-            <td><a href="棒銀.html">棒銀</a></td>
-            <td><a href="穴熊.html">穴熊</a></td>
-        </tr>
-        <tr>
-            <td><a href="中飛車.html">中飛車</a></td>
-            <td><a href="美濃囲い.html">美濃</a></td>
-        </tr>
-        <tr>
-            <td><a href="三間飛車.html">三間飛車</a></td>
-            <td><a href="elmo囲い.html">elmo囲い</a></td>
-        </tr>
-    </table>
+        <table>
+            <tr>
+                <th>攻めの型</th>
+                <th>守りの型</th>
+            </tr>
+            <tr>
+                <td><a href="棒銀.html">棒銀</a></td>
+                <td><a href="穴熊.html">穴熊</a></td>
+            </tr>
+            <tr>
+                <td><a href="中飛車.html">中飛車</a></td>
+                <td><a href="美濃囲い.html">美濃</a></td>
+            </tr>
+            <tr>
+                <td><a href="三間飛車.html">三間飛車</a></td>
+                <td><a href="elmo囲い.html">elmo囲い</a></td>
+            </tr>
+        </table>
+    </div>
 
-                     
     <h1>基本的に攻めと守りの型を組み合わせます</h1>
-        <p>１枚目　棒銀×elmo囲い
-        　　２枚目　中飛車×美濃囲い</p>
+    <p>１枚目　棒銀×elmo囲い
+        ２枚目　中飛車×美濃囲い</p>
     <input type="button" value="画像の変更" onclick="imgchange1();">
-                <input type="button" value="元に戻す" onclick="imgchange2();">
+    <input type="button" value="元に戻す" onclick="imgchange2();">
     <img src='elmoginn.png' id="logo" alt="logo">
+
+    <script src="myjs.js"></script>
+    <script src="ex1.js"></script>
 </body>
 </html>
